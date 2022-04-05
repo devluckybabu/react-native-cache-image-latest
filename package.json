@@ -1,0 +1,46 @@
+{
+  "name": "react-native-cache-image-latest",
+  "version": "0.0.5",
+  "types": "./types/**/*.d.ts",
+  "author": "Lucky Babu",
+  "main": "index.ts",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "cd types && del * && tsc"
+  },
+  "dependencies": {
+    "js-base64": "^3.7.2",
+    "react": "17.0.2",
+    "react-native": "0.67.4",
+    "react-native-fetch-blob": "^0.10.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^27.4.1",
+    "@types/js-base64": "^3.3.1",
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "@types/react-native": "^0.67.3",
+    "@types/react-native-fetch-blob": "^0.10.7",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devluckybabu/react-native-cache-image-latest"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
